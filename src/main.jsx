@@ -9,7 +9,7 @@ import { CardsProvider } from "./components/CardsProvider";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <CardsProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/counter">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
