@@ -1,0 +1,41 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--light-color);
+  background-color:  var(--dark-gray-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --dark-gray-color: #242424;
+  --light-gray-color: #5d5c5c;
+  --text-light-gray-color: #828282;
+  --gray-color: #343434;
+  --light-color: #f2f2ff;
+  --green-color: #00c400;
+  --blue-color: #3620ff;
+  --border: 1px solid var(--light-gray-color);
+  --font-big: 20px;
+  --font-medium-big: 18px;
+  --font-medium: 16px;
+  --font-small: 14px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+}

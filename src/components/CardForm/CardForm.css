@@ -1,0 +1,82 @@
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 12px;
+  background: var(--light-gray-color);
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.top-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  font-weight: 600;
+  margin-top: 12px;
+  display: block;
+  color: #333;
+}
+
+.select {
+  width: 100%;
+  padding: 8px 12px;
+  margin-top: 4px;
+  border: 1.5px solid #bbb;
+  border-radius: 5px;
+  background: white;
+  font-size: 16px;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px 6px;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.select:hover,
+.select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.transport-toggle {
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.inline-flex {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.counter-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 22px;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.counter-btn:hover {
+  background-color: #0056b3;
+}
+
+.counter-value {
+  width: 40px;
+  text-align: center;
+  border: 1.5px solid #bbb;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 0 6px;
+  pointer-events: none;
+  background-color: white;
+  color: #222;
+}
